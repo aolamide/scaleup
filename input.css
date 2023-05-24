@@ -36,6 +36,9 @@ button:disabled {
     .nav-link {
         @apply ml-4 p-1 hidden md:inline hover:text-primary/80;
     }
+    .nav-link-btn {
+        @apply ml-4 p-1 hidden md:inline;
+    }
     .nav-link svg {
         @apply hover:fill-primary/80;
     }
