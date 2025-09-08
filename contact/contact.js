@@ -18,7 +18,7 @@ const onSubmit = (e) => {
     btnSubmitText.innerText = "Sending...";
     btnSubmit.disabled = true;
 
-    fetch("https://site-server.herokuapp.com/send", {
+    fetch("https://contact-api.aolamide.tech/send", {
         method: "post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
